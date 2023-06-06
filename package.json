@@ -4,7 +4,8 @@
   "description": "initial set up for package.json",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "npx nodemon --watch server server/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "express": "^4.18.2",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
+    "nodemon": "^2.0.22",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
